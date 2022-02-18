@@ -64,7 +64,7 @@ $(document).ready(function(){
 
 
 
-  var images = new Array("group/group1.jpg","group/group2.jpg","group/group3.jpg","group/group4.jpg","group/group5.jpg","group/group6.jpg");
+  var images = new Array("group/group1.jpg","group/group2.jpg","group/group3.jpg","group/group4.jpg","group/group5.jpg","group/group6.jpg","group/group7.jpg","group/group8.jpg");
   setInterval(function(){
       var random = images[Math.floor(Math.random() * images.length )];
       $(".image").css("background","url(" + random + ")");
